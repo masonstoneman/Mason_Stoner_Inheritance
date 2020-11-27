@@ -49,6 +49,8 @@ void getVehicle(Vehicle& vehicle) {
 
 	cout << "Enter the manufacturer: ";
 	getline(cin, manufacturer);
+	
+	cout << endl;
 
 	cout << "Enter the year built: ";
 	cin >> year;
